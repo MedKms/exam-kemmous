@@ -20,6 +20,26 @@
       .MyLogo{
         width: 50px;
       }
+      .photo img{
+          width: 300px;
+          margin-top: 5px;
+      }
+      .card-img-top{
+          height: 150px;
+      }
+        .iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    }
+    .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    }
     </style>
 </head>
 <body>
@@ -75,7 +95,100 @@
         </a>
       </div>
     </div>
-    
+    <div class="container">
+        <div class="row">
+          <div class="photo col-xs-12 col-sm-12  col-md-12 col-lg-4">
+              <img src="images/69283062_627881247619322_1052747452626501632_o.jpg" >
+          </div>
+          <div class="col-xs-12 col-sm-12  col-md-12 col-lg-8">
+            <p class="DonnePerso" style="margin-top: 40px;">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item active" aria-current="page">Nom:  KEMMOUS</li>
+                    </ol>
+                  </nav>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item active" aria-current="page">Prénom:  Mohamed</li>
+                    </ol>
+                  </nav>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item active" aria-current="page">Tel:  S0762832226</li>
+                    </ol>
+                  </nav>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item active" aria-current="page">Email:  mohamed.kemmous@gmail.com</li>
+                    </ol>
+                  </nav>
+            </p>
+          </div>
+          <div class="container mr-5" style="margin-top: 40px;">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-ws-12 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/download1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Autonomie</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-ws-12 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">adaptation</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12 col-ws-12 col-lg-4">
+            <div class="card" style="width: 18rem;">
+                <img src="images/download3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">fiabilité</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+        </div>
+      </div>
+          </div>
+        <div class="container">
+            <div class="row" style="margin: 10px auto;">
+            <div class="col-md-12 col-sm-12 col-ws-12 col-lg-6">
+                <div class="Video card" style="width: 18rem;">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/lgv_-X9LPlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-ws-12 col-lg-6">
+                <div class=" Video card" style="width: 18rem;">
+                    <iframe width="300" height="200" src="https://www.youtube.com/embed/rQ9AGroHBm0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container" style="margin:30px auto;">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-ws-12 col-lg-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.16952078615!2d-7.358582814723399!3d33.70456214342027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7b6d0db170185%3A0x79759da1a916fc50!2sENSET%20Mohammedia!5e0!3m2!1sar!2sma!4v1585930656175!5m2!1sar!2sma" width="500" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-12 col-sm-12 col-ws-12 col-lg-6">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Objet</label>
+                          <input type="email" class="form-control" id="exampleInputPassword1" placeholder="">
+                        </div>
+                        <input type="text" size="50" style="height:150px;">
+                        <button type="submit" class="btn btn-primary">Envoyer</button>
+                      </form>
+                </div>
+            </div>
+        </div>
     <script src="Js/jquery-3.4.1.js"></script>
     <script src="bootstrap-4.4.1-dist/js/bootstrap.js"></script>
 </body>
